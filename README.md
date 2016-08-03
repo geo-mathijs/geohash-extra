@@ -12,7 +12,7 @@ Installing the extension requires superuser access to the database. Additionaly 
 
 Next up is installing the extension in Postgres.
 
->CREATE EXTENSION geohash-extra
+>CREATE EXTENSION geohash_extra
 
 ## Use
 
