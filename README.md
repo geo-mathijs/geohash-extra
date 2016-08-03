@@ -1,6 +1,6 @@
 # geohash-extra
 
-An extension for PostgreSQL that expands on the existing geohash functions.
+An extension for PostgreSQL that expands on the existing geohash functions. Generating the neighbours of a geohash and reverting a geometry back into geohashes are both simple functions that are not included in PostGIS, yet they are often slow to do yourself in PLpgSQL. This extension solves both issues with the help of some C language.
 
 ## Installation
 
