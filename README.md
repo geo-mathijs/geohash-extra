@@ -22,6 +22,6 @@ Two additional functions will be added to Postgres.
 2. Finding all neighbours of a geohash
 
 Commands:
->geohashfromgeom(geometry)
+>geohashfromgeom(geometry, precision)
 
->geohash_neighbours(geohash, precision)
+>geohash_neighbours(geohash)
